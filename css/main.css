@@ -23,7 +23,7 @@ body{
     color:#fff;
 }
 header .h1_logo{
-    background:url("/1028/img/logo.png") no-repeat 2% center;
+    background:url("../img/logo.png") no-repeat 2% center;
     padding:40px 120px;
     font-size:30px;
     font-family:'campton', '맑은 고딕', sans-serif;
