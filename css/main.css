@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* clearFix */
+.clearFix::after{
+    content:"";
+    display:block;
+    height:0;
+    clear:both;
+    overflow:hidden;
+}
+body{
+    background:url('../img/vintage-concrete.png') fixed 50% / contain;
+    font-family:'나눔고딕', '맑은 고딕', sans-serif;
+}
+
+.container{
+    width:950px;
+    margin:0 auto;
+    border:4px solid #fff;
+    position:relative;
+}
+.container header{
+    background-color:lightcoral;
+    color:#fff;
+}
+header .h1_logo{
+    background:url("/1028/img/logo.png") no-repeat 2% center;
+    padding:40px 120px;
+    font-size:30px;
+    font-family:'campton', '맑은 고딕', sans-serif;
+    font-weight:bold;
+}
+.container header .ul_list__nav{
+    background-color:#ffcd38;
+    color:#000;
+}
+.container header .ul_list__nav ul li{
+    float:left;
+    width:105px;
+    text-align:center;
+    font-weight:bold;
+    font-size:15px;
+}
+.container header .ul_list__nav ul li a{
+    display:block;
+    padding:10px 20px;
+    color:#7d1e6a;
+    text-decoration:none;
+}
+.container header .ul_list__nav ul li a:hover{
+    color:#ffcd38;
+    background-color:#7d1e6a
+}
+.right_box article{
+    float:left;
+    width:70%;height:600px;
+    background:#f1eee9;
+}
+.right_box aside{
+    float:left;
+    width:244px;height:630px;
+}
+article {
+    padding:30px 20px 0;
+}
+article .left_img{
+    width:43%;
+    display:inline-block;
+    background:#fff;
+    padding:10px 10px 15px 10px;
+    border:1px solid #e71824;
+    
+}
+article .content_upper{
+    margin-bottom:40px;
+}
+article .right_img{
+    width:45%;height:222px;
+    display:inline-block;
+    padding-left:15px;
+}
+article h2{
+    font-size:25px;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+article h3{
+    font-size:16px;
+    font-weight:bold;
+    color:#e71824;
+    margin-bottom:25px;
+}
+article p{
+    line-height:1.6em;
+}
+article figure figcaption{
+    margin-top:10px;
+    text-align:right;
+    font-style:italic;
+}
+aside{
+    background:#fff;
+    border-left:1px solid #e71824;
+}
+aside h2{
+    color:#e71824;
+    margin:40px 0 25px 20px;
+    font-size:20px;
+    font-weight:bold;
+}
+aside ul li{
+    border-bottom:1px solid #e71824;
+}
+aside ul li a{
+    padding:18px 22px;
+    display:block;
+    text-decoration: none;
+    color:#000;
+    font-size:18px;
+}
+aside ul li a:hover{
+    background:#e71824;
+    color:#fff;
+}
+aside p{
+    padding-left:22px;
+    font-size:18px;
+}
+footer{
+    background:#f08080;
+    padding:10px 20px;
+    color:#fff;
+}
