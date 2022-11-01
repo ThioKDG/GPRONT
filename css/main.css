@@ -9,7 +9,7 @@
 }
 body{
     background:url('../img/vintage-concrete.png') fixed 50% / contain;
-    font-family:'나눔고딕', '맑은 고딕', sans-serif;
+    /* font-family:'나눔고딕', '맑은 고딕', sans-serif; */
 }
 
 .container{
@@ -26,7 +26,7 @@ header .h1_logo{
     background:url("../img/logo.png") no-repeat 2% center;
     padding:40px 120px;
     font-size:30px;
-    font-family:'campton', '맑은 고딕', sans-serif;
+    /* font-family:'campton', '맑은 고딕', sans-serif; */
     font-weight:bold;
 }
 .container header .ul_list__nav{
